@@ -85,8 +85,11 @@ Mahmoud: Hello everyone!
 Chat between multiple clients!
 Type exit to quit the chatroom.
 
-🎥 Demo Video
-🎬 [Watch the demo video here](https://drive.google.com/file/d/1SJKkNGV2WZy_IryrVP7blwXuGjTiyc3o/view?usp=sharing)
+## 🎥 Demo Video
+
+🎬 **Watch the running demo here:**  
+https://drive.google.com/file/d/1SJKkNGV2WZy_IryrVP7blwXuGjTiyc3o/view?usp=sharing
+
 
 
 Replace the above link with your actual screen recording (Google Drive, YouTube, or Loom).
@@ -95,8 +98,10 @@ Replace the above link with your actual screen recording (Google Drive, YouTube,
 Mahmoud Salem
 GitHub Profile
 
-🗂 Repository Link
+## 🗂 Repository Link
+
 🔗 https://github.com/mahmoudsalem253/chatroom
+
 
 🧾 Documentation Summary
 This chatroom project uses Go RPC to allow communication between multiple clients through a single coordinating server.
