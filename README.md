@@ -11,9 +11,35 @@ This project demonstrates how to implement a minimal chatroom using **Remote Pro
 - The **server** coordinates messages between clients and keeps the full chat history.
 - Each **client** connects via RPC, sends messages, and retrieves the chat history from the server.
 - Each client enters their **name** before chatting, and all messages are displayed with usernames.
+- 
 
 ---
+🎥 Demo Video
 
+🎬 Watch the running demo here:
+https://drive.google.com/file/d/1SJKkNGV2WZy_IryrVP7blwXuGjTiyc3o/view?usp=sharing
+
+🧑‍💻 Author
+
+Mahmoud Salem
+GitHub Profile: https://github.com/mahmoudsalem253
+
+🗂 Repository Link
+
+🔗 https://github.com/mahmoudsalem253/chatroom
+
+🧾 Documentation Summary
+
+This chatroom project uses Go RPC to allow communication between multiple clients through a single coordinating server.
+It demonstrates:
+
+RPC method definition and invocation
+
+Concurrency-safe data handling with sync.Mutex
+
+Persistent in-memory message storage
+
+Basic error handling for client-server disconnections
 ## 🚀 Features
 
 ✅ Multi-client chatroom via Go RPC  
@@ -73,31 +99,5 @@ Mahmoud: Hello everyone!
 --------------------
 
 
-🎥 Demo Video
-
-🎬 Watch the running demo here:
-https://drive.google.com/file/d/1SJKkNGV2WZy_IryrVP7blwXuGjTiyc3o/view?usp=sharing
-
-🧑‍💻 Author
-
-Mahmoud Salem
-GitHub Profile: https://github.com/mahmoudsalem253
-
-🗂 Repository Link
-
-🔗 https://github.com/mahmoudsalem253/chatroom
-
-🧾 Documentation Summary
-
-This chatroom project uses Go RPC to allow communication between multiple clients through a single coordinating server.
-It demonstrates:
-
-RPC method definition and invocation
-
-Concurrency-safe data handling with sync.Mutex
-
-Persistent in-memory message storage
-
-Basic error handling for client-server disconnections
 
 
