@@ -26,14 +26,6 @@ This project demonstrates how to implement a minimal chatroom using **Remote Pro
 
 ## 🧩 Project Structure
 
-chatroom/
-│
-├── server.go # RPC chat server
-├── client.go # RPC chat client
-└── README.md # Documentation and demo link
-
-markdown
-Copy code
 
 ---
 
@@ -50,8 +42,7 @@ Copy code
 - Connects to the server using `rpc.Dial`
 - Prompts the user to enter their name
 - Sends messages in the format:  
-yaml
-Copy code
+
 - Displays full chat history after each message
 
 ---
@@ -61,20 +52,18 @@ Copy code
 1. **Start the server**  
  ```bash
  go run server.go
-You should see:
+- Displays full chat history after each message
 
-nginx
-Copy code
+---
+
+## 🧰 How to Run
+
+1. **Start the server**  
+ ```bash
+ go run server.go
 Chat server running on port 1234...
-Start one or more clients (in new terminals)
-
-bash
-Copy code
 go run client.go
-Example interaction:
 
-pgsql
-Copy code
 Enter your name: Mahmoud
 Connected to chat server.
 You: Hello everyone!
@@ -82,28 +71,23 @@ You: Hello everyone!
 --- Chat History ---
 Mahmoud: Hello everyone!
 --------------------
-Chat between multiple clients!
-Type exit to quit the chatroom.
 
-## 🎥 Demo Video
+🎥 Demo Video
 
-🎬 **Watch the running demo here:**  
+🎬 Watch the running demo here:
 https://drive.google.com/file/d/1SJKkNGV2WZy_IryrVP7blwXuGjTiyc3o/view?usp=sharing
 
-
-
-Replace the above link with your actual screen recording (Google Drive, YouTube, or Loom).
-
 🧑‍💻 Author
-Mahmoud Salem
-GitHub Profile
 
-## 🗂 Repository Link
+Mahmoud Salem
+GitHub Profile: https://github.com/mahmoudsalem253
+
+🗂 Repository Link
 
 🔗 https://github.com/mahmoudsalem253/chatroom
 
-
 🧾 Documentation Summary
+
 This chatroom project uses Go RPC to allow communication between multiple clients through a single coordinating server.
 It demonstrates:
 
@@ -114,4 +98,5 @@ Concurrency-safe data handling with sync.Mutex
 Persistent in-memory message storage
 
 Basic error handling for client-server disconnections
+
 
